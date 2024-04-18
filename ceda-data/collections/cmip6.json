@@ -1,12 +1,56 @@
 {
-    "type": "Collection",
-    "id": "cmip6",
-    "stac_extensions": [],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180.0,
+                    -90.0,
+                    179.99999991618097,
+                    89.99999995809048
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "1850-01-01T00:00:00.000Z",
+                    "4114-12-16T12:00:00.000Z"
+                ]
+            ]
+        }
+    },
     "stac_version": "1.0.0",
-    "title": "",
-    "description": "CMIP6",
-    "keywords": [],
     "license": "cmip6",
+    "description": "CMIP6",
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://api.stac.ceda.ac.uk/collections/cmip6.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://api.stac.ceda.ac.uk/catalog.json"
+        },
+        {
+            "rel": "items",
+            "type": "application/geo+json",
+            "href": "https://api.stac.ceda.ac.uk/collections/cmip6/items.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://api.stac.ceda.ac.uk/catalog.json"
+        },
+        {
+            "rel": "items",
+            "href": "https://stac-elasticsearch-stock-stac.130.246.130.221.nip.io/collections/cmip6/items",
+            "type": "application/geo+json"
+        }
+    ],
+    "id": "cmip6",
+    "type": "Collection",
     "providers": [],
     "summaries": {
         "experiment_title": [
@@ -430,52 +474,8 @@
         ],
         "forcing_index": []
     },
-    "extent": {
-        "spatial": {
-            "bbox": [
-                [
-                    -180.0,
-                    -90.0,
-                    179.99999991618097,
-                    89.99999995809048
-                ]
-            ]
-        },
-        "temporal": {
-            "interval": [
-                [
-                    "1850-01-01T00:00:00.000Z",
-                    "4114-12-16T12:00:00.000Z"
-                ]
-            ]
-        }
-    },
-    "links": [
-        {
-            "rel": "self",
-            "type": "application/json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json"
-        },
-        {
-            "rel": "parent",
-            "type": "application/json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
-        },
-        {
-            "rel": "items",
-            "type": "application/geo+json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items.json"
-        },
-        {
-            "rel": "root",
-            "type": "application/json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
-        },
-        {
-            "rel": "items",
-            "href": "https://stac-elasticsearch-stock-stac.130.246.130.221.nip.io/collections/cmip6/items",
-            "type": "application/geo+json"
-        }
-    ],
+    "stac_extensions": [],
+    "title": "",
+    "keywords": [],
     "assets": {}
 }
