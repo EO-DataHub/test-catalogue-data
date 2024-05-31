@@ -1,0 +1,7 @@
+{
+    "type": "Catalog",
+    "id": "test-catalogue-please-delete",
+    "stac_version": "1.0.0",
+    "description": "Tes catalog - do not use",
+    "links": []
+}
